@@ -1,0 +1,33 @@
+New concepts learnt:
+1.SCSS:
+upgraded version of css
+2.need npm installation for this
+npm install -g sass
+then we convert the .scss file to css with the below command
+sass --watch style.scss style.css
+--
+@mixin header name
+{
+
+}
+is like a function that can be invoked anyhere like
+h4
+{
+    @include header name
+}
+and instead of 
+article:hover
+{
+
+}, we can use like
+article{
+    &:hover{
+
+    }
+}
+============================
+Youtube docs:https://developers.google.com/youtube/v3/docs/playlists/list(to work on playlist)
+API key for Youtube:AIzaSyDA3nDx-a7xSoHBb_t_VWQf5_w1FARNkjc
+====================
+Note:Caniuse.com is a website which is usedtocheck whether any mpdules or method weuseis mostlysupportedin current
+platforms.
